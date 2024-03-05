@@ -1,0 +1,6 @@
+@ReactWithWindowsAuthentication.Server_HostAddress = http://localhost:5206
+
+GET {{ReactWithWindowsAuthentication.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
