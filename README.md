@@ -26,3 +26,4 @@ The initial project is without Windows authentication. then we add Windows authe
     var user = HttpContext.User?.Identity?.Name ?? "N/A";
    ```
 8. In the production environment, do not forget to set the IIS 
+ Windows authentication is good used in intranet projects which can work with Active Directory.
